@@ -1,0 +1,13 @@
+C:\JE_Test\backend\JeBackend\Core\bin\Debug\JeBackend.Core.dll
+C:\JE_Test\backend\JeBackend\Core\bin\Debug\JeBackend.Core.pdb
+C:\JE_Test\backend\JeBackend\Core\bin\Debug\Ninject.dll
+C:\JE_Test\backend\JeBackend\Core\bin\Debug\Ninject.xml
+C:\JE_Test\backend\JeBackend\Core\obj\Debug\JeBackend.Core.dll
+C:\JE_Test\backend\JeBackend\Core\obj\Debug\JeBackend.Core.pdb
+C:\JE_Test\backend\JeBackend\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\RoverTest\Core\obj\Debug\JeBackend.Core.dll
+C:\RoverTest\Core\obj\Debug\JeBackend.Core.pdb
+C:\RoverTest\Core\bin\Debug\JeBackend.Core.dll
+C:\RoverTest\Core\bin\Debug\JeBackend.Core.pdb
+C:\RoverTest\Core\bin\Debug\Ninject.dll
+C:\RoverTest\Core\bin\Debug\Ninject.xml

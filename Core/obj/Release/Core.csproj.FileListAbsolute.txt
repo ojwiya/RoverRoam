@@ -1,0 +1,7 @@
+C:\JE_Test\backend\JeBackend\Core\bin\Release\JeBackend.Core.dll
+C:\JE_Test\backend\JeBackend\Core\bin\Release\JeBackend.Core.pdb
+C:\JE_Test\backend\JeBackend\Core\bin\Release\Ninject.dll
+C:\JE_Test\backend\JeBackend\Core\bin\Release\Ninject.xml
+C:\JE_Test\backend\JeBackend\Core\obj\Release\Core.csprojResolveAssemblyReference.cache
+C:\JE_Test\backend\JeBackend\Core\obj\Release\JeBackend.Core.dll
+C:\JE_Test\backend\JeBackend\Core\obj\Release\JeBackend.Core.pdb

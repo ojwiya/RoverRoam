@@ -1,0 +1,13 @@
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\JeBackend.Infrastructure.dll
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\JeBackend.Infrastructure.pdb
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\JeBackend.Core.dll
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\Newtonsoft.Json.dll
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\System.Net.Http.Formatting.dll
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\Ninject.dll
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\JeBackend.Core.pdb
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\Newtonsoft.Json.xml
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\System.Net.Http.Formatting.xml
+C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\Ninject.xml
+C:\JE_Test\backend\JeBackend\Infrastructure\obj\Release\Infrastructure.csprojResolveAssemblyReference.cache
+C:\JE_Test\backend\JeBackend\Infrastructure\obj\Release\JeBackend.Infrastructure.dll
+C:\JE_Test\backend\JeBackend\Infrastructure\obj\Release\JeBackend.Infrastructure.pdb
