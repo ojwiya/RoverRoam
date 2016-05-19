@@ -1,15 +1,13 @@
 ﻿<div class="jumbotron">
-    <h1>Restaurant Search API</h1>
-    <p class="lead">Technologies used her are ASP.NET WebAPI,.Net 4.5.1, C# and some HTML, CSS, and JavaScript for the API documentation.</p>
+    <h1>Rover API</h1>
+    <p class="lead">Technologies used here are ASP.NET WebAPI,.Net 4.5.1, C# and some HTML, CSS, and JavaScript for the API documentation. Please API from menu above to test the rover commands</p>
 </div>
 <div class="row">
     <div class="col-md-12">
         <h2>Introduction</h2>
-        <p>The function of the backend it to act as the core (business logic)  of the application, retrieving data from the Just Eat apis
-process and making available via apis to the mobile and web applications.</p><p>
+        <p>The function of the backend it to act as the core (business logic)  of the application, these are in the rover service and a helper service called positionservice</p><p>
+Unit test are provided type of rover movement.
 
-    The primary language here is C# based on .net 4.5 provides a rich language based a C++ and VB with similar features to Java. The interesting new features it
-    provides include the testing frameworks to encourage TDD, dependency injection.
 </p><p>
 
     The architecture is based on the onion architecture and domain driven design(DDD). One may ask what the difference is?
@@ -21,7 +19,7 @@ process and making available via apis to the mobile and web applications.</p><p>
     and methods names there are terms which are recognizable to the business. This is instead of generic computer science terms which are not domain specific.
  
 </p><p>
-    The infrastructure will include the UI, repositories and services used by the core. Ideally they should be replacable without affecting the core and by all means
+    The infrastructure would include the UI, repositories and services used by the core. Ideally they should be replacable without affecting the core and by all means
     should not polute the core. For example Entity Framework is only one of many ORM implementations and should be in the *infrastructure* and therefore no direct references
     should be made to it in the core. Thefore if the implmementation is switched to another ORM such as Dapper the task is limited to
     ensuring that it implments the required interface.

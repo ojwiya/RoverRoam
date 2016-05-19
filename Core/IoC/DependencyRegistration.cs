@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JeBackend.Core.IoC
+namespace Core.IoC
 {
     public class DependencyRegistration: Ninject.Modules.NinjectModule
     {
@@ -15,6 +15,7 @@ namespace JeBackend.Core.IoC
             {
                 Ninject.IKernel kernal = new StandardKernel();  
                 Bind<IRoverService>().To<RoverService>();
+                Bind<IPositionService>().To<PositionService>();
             }
 
     }

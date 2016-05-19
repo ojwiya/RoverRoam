@@ -11,9 +11,10 @@ namespace Core.Models
             public Int32 Id {get;set;}
             public Position CurrentPosition {get;set;}
             public Position StartPosition { get; set; }
+            public Bearing Bearing { get; set; }
             public int CurrentInstruction {get;set;}
             public Boolean IsComplete {get;set;}
-            public String[] Instruction {get;set;}
+            public Char[] Instruction {get;set;}
           
     }
 }

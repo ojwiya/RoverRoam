@@ -51,14 +51,11 @@ C:\JE_Test\backend\JeBackend\Tests\bin\Debug\System.Web.Http.Cors.xml
 C:\JE_Test\backend\JeBackend\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
 C:\JE_Test\backend\JeBackend\Tests\obj\Debug\Tests.dll
 C:\JE_Test\backend\JeBackend\Tests\obj\Debug\Tests.pdb
-C:\RoverTest\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
-C:\RoverTest\Tests\obj\Debug\Tests.dll
-C:\RoverTest\Tests\obj\Debug\Tests.pdb
 C:\RoverTest\Tests\bin\Debug\Tests.dll.config
 C:\RoverTest\Tests\bin\Debug\Tests.dll
 C:\RoverTest\Tests\bin\Debug\Tests.pdb
-C:\RoverTest\Tests\bin\Debug\Api2.dll
-C:\RoverTest\Tests\bin\Debug\JeBackend.Core.dll
+C:\RoverTest\Tests\bin\Debug\Api.dll
+C:\RoverTest\Tests\bin\Debug\Core.dll
 C:\RoverTest\Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\RoverTest\Tests\bin\Debug\Moq.dll
 C:\RoverTest\Tests\bin\Debug\Newtonsoft.Json.dll
@@ -82,8 +79,8 @@ C:\RoverTest\Tests\bin\Debug\WebActivatorEx.dll
 C:\RoverTest\Tests\bin\Debug\Swashbuckle.Core.dll
 C:\RoverTest\Tests\bin\Debug\System.Web.Http.Cors.dll
 C:\RoverTest\Tests\bin\Debug\System.Web.Cors.dll
-C:\RoverTest\Tests\bin\Debug\Api2.pdb
-C:\RoverTest\Tests\bin\Debug\JeBackend.Core.pdb
+C:\RoverTest\Tests\bin\Debug\Api.pdb
+C:\RoverTest\Tests\bin\Debug\Core.pdb
 C:\RoverTest\Tests\bin\Debug\Moq.xml
 C:\RoverTest\Tests\bin\Debug\nunit.framework.xml
 C:\RoverTest\Tests\bin\Debug\Ploeh.AutoFixture.xml
@@ -102,3 +99,6 @@ C:\RoverTest\Tests\bin\Debug\System.Web.Optimization.xml
 C:\RoverTest\Tests\bin\Debug\Ninject.Web.Common.xml
 C:\RoverTest\Tests\bin\Debug\Ninject.xml
 C:\RoverTest\Tests\bin\Debug\System.Web.Http.Cors.xml
+C:\RoverTest\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\RoverTest\Tests\obj\Debug\Tests.dll
+C:\RoverTest\Tests\obj\Debug\Tests.pdb

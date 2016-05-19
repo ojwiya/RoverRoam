@@ -26,8 +26,8 @@ namespace Api.Controllers
         /// </summary>
         /// <param name="outcode"></param>
         /// <returns></returns>
-        [Route("api/rover")]
-        public HttpResponseMessage PostRoam(string plateauSize, Instruction[] instructions)
+        [Route("api/rover/roam")]
+        public HttpResponseMessage Roam(string plateauSize, Instruction[] instructions)
         {
 
           string[] roverFinalPosition = _roverService.Roam(plateauSize,instructions);

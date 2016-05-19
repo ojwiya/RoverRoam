@@ -19,8 +19,8 @@ namespace Tests
     public class RoverServiceTest
     {
         private IFixture _fixture;
-        private Mock<IRoverService> _mockRoverService;
-        private IRoverService _RoverService;
+        private IPositionService _positionService;
+        private IRoverService _roverService;
         private string[] _roverResult;
 
         private string _plateauSize;
@@ -31,20 +31,21 @@ namespace Tests
         {
             _fixture = new Fixture().Customize(new MultipleCustomization());
 
-            _RoverService = new RoverService();
+            _positionService = new PositionService();
+            _roverService = new RoverService(_positionService);
 
             _plateauSize = "5 5";
 
-           _instructions = new Instruction[] {
+            _instructions = new Instruction[] {
                                     new Instruction(){ 
                                         StartPosition="1 2 N",
                                         Movements = "LMLMLMLMM",
-                                         RoverId = 0
+                                         RoverId = 1
                                         },
                                     new Instruction(){ 
                                         StartPosition="3 3 E",
                                         Movements = "MMRMMRMRRM",
-                                        RoverId = 0
+                                        RoverId = 2
                                         }
                                  };
 
@@ -57,14 +58,127 @@ namespace Tests
             // Act
             // Assert
 
-            _roverResult = _RoverService.Roam(_plateauSize,_instructions);
+            _roverResult = _roverService.Roam(_plateauSize,_instructions);
 
             Assert.IsNotNull(_roverResult);
             Assert.AreNotEqual(0, _roverResult.Count());
             Assert.AreEqual("1 3 N", _roverResult[0]);
             Assert.AreEqual("5 1 E", _roverResult[1]);
+        }
+
+        [Test]
+        public void Rover_ShouldMove_North()
+        {
+
+            _instructions = new Instruction[] {
+                                    new Instruction(){ 
+                                        StartPosition="1 1 N",
+                                        Movements = "M",
+                                        RoverId = 1
+                                        }
+                                 };
+            _roverResult = _roverService.Roam(_plateauSize, _instructions);
+
+            Assert.IsNotNull(_roverResult);
+            Assert.AreNotEqual(0, _roverResult.Count());
+            Assert.AreEqual("1 2 N", _roverResult[0]);
+
+        }
+
+        [Test]
+        public void Rover_ShouldMove_South()
+        {
 
 
+            _instructions = new Instruction[] {
+                                    new Instruction(){ 
+                                        StartPosition="2 2 S",
+                                        Movements = "M",
+                                        RoverId = 1
+                                        }
+                                 };
+            _roverResult = _roverService.Roam(_plateauSize, _instructions);
+
+            Assert.IsNotNull(_roverResult);
+            Assert.AreNotEqual(0, _roverResult.Count());
+            Assert.AreEqual("2 1 S", _roverResult[0]);
+        }
+
+        [Test]
+        public void Rover_ShouldMove_East()
+        {
+            _instructions = new Instruction[] {
+                                    new Instruction(){ 
+                                        StartPosition="1 1 E",
+                                        Movements = "M",
+                                        RoverId = 1
+                                        }
+                                 };
+            
+            _roverResult = _roverService.Roam(_plateauSize, _instructions);
+
+            Assert.IsNotNull(_roverResult);
+            Assert.AreNotEqual(0, _roverResult.Count());
+            Assert.AreEqual("2 1 E", _roverResult[0]);
+
+        }
+
+        [Test]
+        public void Rover_ShouldMove_West()
+        {
+
+            _instructions = new Instruction[] {
+                                    new Instruction(){ 
+                                        StartPosition="1 1 W",
+                                        Movements = "M",
+                                        RoverId = 1
+                                        }
+                                 };
+            _roverResult = _roverService.Roam(_plateauSize, _instructions);
+
+            Assert.IsNotNull(_roverResult);
+            Assert.AreNotEqual(0, _roverResult.Count());
+            Assert.AreEqual("0 1 W", _roverResult[0]);
+
+        }
+
+        [Test]
+        public void Rover_ShouldRotate_Left()
+        {
+
+            _instructions = new Instruction[] {
+                                    new Instruction(){ 
+                                        StartPosition="1 1 N",
+                                        Movements = "L",
+                                        RoverId = 1
+                                        }
+                                 };
+
+            _roverResult = _roverService.Roam(_plateauSize, _instructions);
+
+            Assert.IsNotNull(_roverResult);
+            Assert.AreNotEqual(0, _roverResult.Count());
+            Assert.AreEqual("1 1 W", _roverResult[0]);
+
+        }
+
+
+        [Test]
+        public void Rover_ShouldRotate_Right()
+        {
+
+            _instructions = new Instruction[] {
+                                    new Instruction(){ 
+                                        StartPosition="1 1 N",
+                                        Movements = "R",
+                                        RoverId = 1
+                                        }
+                                 };
+            _roverResult = _roverService.Roam(_plateauSize, _instructions);
+
+            Assert.IsNotNull(_roverResult);
+            Assert.AreNotEqual(0, _roverResult.Count());
+            Assert.AreEqual("1 1 E", _roverResult[0]);
 
         }
 

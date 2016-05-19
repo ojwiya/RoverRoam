@@ -5,10 +5,9 @@ using System.Text;
 
 namespace Core.Models
 {
-    public class Position
+    public class Bearing
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-                
+        public int Degree { get; set; }
+        public string Abbreviation { get; set; }
     }
 }
