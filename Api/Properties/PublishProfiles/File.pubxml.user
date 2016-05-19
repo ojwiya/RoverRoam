@@ -6,20 +6,29 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\JE_Test\backend\publications\201505131833</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\RoverTest\published\v1</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>05/10/2016 04:23:39</publishTime>
     </File>
+    <File Include="bin/Api.dll">
+      <publishTime>05/19/2016 07:22:51</publishTime>
+    </File>
     <File Include="bin/Api2.dll">
       <publishTime>05/14/2016 14:20:08</publishTime>
+    </File>
+    <File Include="bin/Core.dll">
+      <publishTime>05/19/2016 07:22:49</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>05/10/2016 04:23:42</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
       <publishTime>05/10/2016 04:23:42</publishTime>
+    </File>
+    <File Include="bin/Infrastructure.dll">
+      <publishTime>05/19/2016 07:22:50</publishTime>
     </File>
     <File Include="bin/JeBackend.Core.dll">
       <publishTime>05/13/2016 18:32:39</publishTime>
@@ -166,13 +175,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/10/2016 14:09:32</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>05/14/2016 13:53:30</publishTime>
+      <publishTime>05/19/2016 07:35:42</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>05/10/2016 14:09:17</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>05/14/2016 13:57:15</publishTime>
+      <publishTime>05/19/2016 07:38:26</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>05/11/2016 06:40:31</publishTime>
@@ -181,7 +190,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/10/2016 14:09:17</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/13/2016 18:34:15</publishTime>
+      <publishTime>05/19/2016 07:22:52</publishTime>
     </File>
   </ItemGroup>
 </Project>

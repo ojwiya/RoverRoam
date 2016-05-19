@@ -5,3 +5,10 @@ C:\JE_Test\backend\JeBackend\Core\bin\Release\Ninject.xml
 C:\JE_Test\backend\JeBackend\Core\obj\Release\Core.csprojResolveAssemblyReference.cache
 C:\JE_Test\backend\JeBackend\Core\obj\Release\JeBackend.Core.dll
 C:\JE_Test\backend\JeBackend\Core\obj\Release\JeBackend.Core.pdb
+C:\RoverTest\Core\bin\Release\Core.dll
+C:\RoverTest\Core\bin\Release\Core.pdb
+C:\RoverTest\Core\bin\Release\Ninject.dll
+C:\RoverTest\Core\bin\Release\Ninject.xml
+C:\RoverTest\Core\obj\Release\Core.csprojResolveAssemblyReference.cache
+C:\RoverTest\Core\obj\Release\Core.dll
+C:\RoverTest\Core\obj\Release\Core.pdb

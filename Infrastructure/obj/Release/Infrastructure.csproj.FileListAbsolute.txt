@@ -11,3 +11,14 @@ C:\JE_Test\backend\JeBackend\Infrastructure\bin\Release\Ninject.xml
 C:\JE_Test\backend\JeBackend\Infrastructure\obj\Release\Infrastructure.csprojResolveAssemblyReference.cache
 C:\JE_Test\backend\JeBackend\Infrastructure\obj\Release\JeBackend.Infrastructure.dll
 C:\JE_Test\backend\JeBackend\Infrastructure\obj\Release\JeBackend.Infrastructure.pdb
+C:\RoverTest\Infrastructure\bin\Release\Infrastructure.dll
+C:\RoverTest\Infrastructure\bin\Release\Infrastructure.pdb
+C:\RoverTest\Infrastructure\bin\Release\Core.dll
+C:\RoverTest\Infrastructure\bin\Release\Newtonsoft.Json.dll
+C:\RoverTest\Infrastructure\bin\Release\System.Net.Http.Formatting.dll
+C:\RoverTest\Infrastructure\bin\Release\Core.pdb
+C:\RoverTest\Infrastructure\bin\Release\Newtonsoft.Json.xml
+C:\RoverTest\Infrastructure\bin\Release\System.Net.Http.Formatting.xml
+C:\RoverTest\Infrastructure\obj\Release\Infrastructure.csprojResolveAssemblyReference.cache
+C:\RoverTest\Infrastructure\obj\Release\Infrastructure.dll
+C:\RoverTest\Infrastructure\obj\Release\Infrastructure.pdb
